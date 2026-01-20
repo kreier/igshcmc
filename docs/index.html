@@ -1,0 +1,120 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="date" content="2010-02-15">
+<title>saiht.org</title>
+<link rel=stylesheet type="text/css" href="style.css">
+<script type="text/javascript">
+<!--
+var bilder = new Array( "pic/erde.jpg", "pic/erde2.jpg", "pic/callisto.jpg", "pic/erde.jpg", "pic/jupiter.jpg");
+var Jetzt = new Date();
+var tag = Jetzt.getDate() + (Jetzt.getMonth() * 31);
+var anzahl = bilder.length ;
+var tagesbild = (tag - Math.round((tag/anzahl)-0.5)*anzahl);
+function zufall() { document.getElementById("bild").src = bilder[tagesbild]; }
+function bildwechsel() {
+  tag = tag+1;
+  tagesbild = (tag - Math.round((tag/anzahl)-0.5)*anzahl);
+  document.getElementById("bild").src = bilder[tagesbild];
+} 
+//-->
+</script>
+</head>
+
+<body style="background: #fff;" onload="zufall()">
+
+<!-- image of text at the top -->
+<div style="margin: 0.7em 0 1em 0; text-align: center; font-size: 30px; line-height: 110%; font-family: 'Hoefler Text', 'Times New Roman', 'Times New Roman', Times, serif;"><a href="javascript:bildwechsel()">
+<img src="pic/logo.png"  width="200" height="30" alt="saiht.org" border="0" /></a>
+</div>
+
+<!-- container div for the central logo and the links to the largest language editions -->
+<div style="text-align: center; vertical-align: middle; max-width: 100%; width: 42em; margin: 0 auto 0 auto; height: 26em; position: relative;">
+
+<!-- the central logo -->
+<div style="position: absolute; left: 50%; top: 50%; width: 0; height: 0;">
+<div style="position: relative; left: -100px; top: -100px; width: 200px; height: 200px;">
+<img id="bild" src="pic/erde.jpg" width="200" height="200" alt="" />
+</div>
+</div>
+
+<!-- #1 -->
+<div style="position: absolute; top: 0%; right: 55%; background: #fff;">
+<a href="http://saiht.org/mirror/people.physik.hu-berlin.de/"><big><strong>Diplomarbeit</strong></big></a><br />
+<span style="font-style: italic">CdHgTe und Photoemission</span><br />
+<small>69.354 kB, 530 files, 25 folders</small></div>
+
+<!-- #2 -->
+<div style="position: absolute; top: 0%; left: 55%; background: #fff;">
+<a href="http://saiht.org/mirror/saiht.funpic.de/"><big><strong>Tschechientouren</strong></big></a><br />
+<span style="font-style: italic">Tausende von Bildern 2007</span><br />
+<small>574.307 kB, 2546 files, 23 folders</small></div>
+
+<!-- #3 -->
+<div style="position: absolute; top: 20%; left: 5%; background: #fff;">
+<a href="http://saiht.org/mirror/nanomagnet.com/"><big><strong>nanomagnet.com</strong></big></a><br />
+<span style="font-style: italic">template homepage</span><br />
+<small>309 kB, 38 files, 1 folder</small></div>
+
+<!-- #4 -->
+<div style="position: absolute; top: 20%; right: 2%; background: #fff;">
+<a href="http://saiht.org/mirror/regensburg07.re.funpic.de/"><big><strong>Regensburg 2007</strong></big></a><br />
+<span style="font-style: italic">Frühjahrstagung der DPG</span><br />
+<small>54.359 kB, 369 files, 3 folders</small></div>
+
+<!-- #5 -->
+<div style="position: absolute; top: 40%; left: 0%; background: #fff;">
+<a href="http://saiht.org/mirror/home.arcor.de-ar65/"><big><strong>webcam 2'601</strong></big></a><br />
+<span style="font-style: italic">Überwachung des Labors</span><br />
+<small>42 kB, 8 files, 1 folder</small></div>
+
+<!-- #6 -->
+<div style="position: absolute; top: 40%; right: 0%; background: #fff;">
+<a href="http://blog.saiht.org/"><big><strong>blog.saiht.org</strong></big></a><br />
+<span style="font-style: italic">Elektronisches Tagebuch</span><br />
+<small>305 kB, 85 files, 11 folders</small></div>
+
+<!-- #7 -->
+<div style="position: absolute; top: 60%; left: 2%; background: #fff;">
+<a href="http://saiht.org/mirror/ar65view.sourceforge.net/"><big><strong>AR65view</strong></big></a><br />
+<span style="font-style: italic">Java Messdatenauswertung</span><br />
+<small>1.056 kB, 16 files, 1 folder</small></div>
+
+<!-- #8 -->
+<div style="position: absolute; top: 60%; right: 6%; background: #fff;">
+<a href="http://saiht.org/mirror/saiht.net/"><big><strong>saiht.net</strong></big></a><br />
+<span style="font-style: italic">altes Internetprojekt</span><br />
+<small>169 kB, 70 files, 5 folders</small></div>
+
+<!-- #9 -->
+<div style="position: absolute; top: 80%; right: 59%; background: #fff;">
+<a href="http://saiht.org/mirror/saiht.de/"><big><strong>saiht.de</strong></big></a><br />
+<span style="font-style: italic">Version April 2008</span><br />
+<small>68.434 kB, 2505 files, 199 folders</small></div>
+
+<!-- #10 -->
+<div style="position: absolute; top: 80%; left: 52%; background: #fff;">
+<a href="http://saiht.org/mirror/lacy.de/"><big><strong>lacy.de</strong></big></a><br />
+<span style="font-style: italic">gemeinsames Internetprojekt</span><br />
+<small>305 kB, 85 files, 11 folders</small></div>
+
+</div>
+
+<p style="text-align:right;font-size:8px;">Version: 0.2.10</p>
+<!--
+<hr>
+
+<p>Die obigen Seiten sind auf saiht.org nur gespiegelt. Zum Teil sind die Originalserver bereits abgeschaltet. Der Speicherplatz bei Evanzo dient damit der Konservierung.</p>
+
+<p>Eine Ausnahme bildet das WordPress-Blog, das unter blog.saiht.org zu finden ist. Es läuft als aktuelles Projekt weiter und lebt von neuen Beiträgen.</p>
+-->
+<hr>
+
+<p style="font-size:xx-small;font-family:Arial,sans-serif,Verdana;text-align:center">© 2007-2010 saiht | <a href='impessum.hmtl'>Impressum</a> | <a href='mailto:name@domain.what'>Mail an Webmaster</a><br />
+Alle Rechte vorbehalten. Alle Inhalte werden ausschließlich zum privaten Gebrauch zur Verfügung gestellt. Für die Inhalte fremder, verlinkter Internetangebote wird keine Verantwortung übernommen.<br />
+last updated: 2010/02/15</p>
+
+</body>
+</html>

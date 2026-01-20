@@ -1,0 +1,68 @@
+/* zentrale Style-Vorgaben für ams150 */
+
+p,h1,h2,h3,h4,ul,ol,li,div,td,th,address,blockquote,nobr,b,i
+     { font-family:Verdana,Arial,sans-serif; }
+
+tt { font-family:Courier New,Courier; font-size:100%; color:#0000C0; }
+
+body {
+    min-width: 20em; /* Mindestbreite (der Navigation) verhindert Anzeigefehler in modernen Browsern */
+	margin: 0px 5px 0px 5px; 
+    padding: 0px;
+}
+
+a {
+  text-decoration:none; /* Die Links sind nun nicht mehr unterstrichen */
+}
+
+a.external {
+	background: url(pic/external.png) center right no-repeat;
+	padding-right: 13px;
+}
+
+a.table:link , a.table:visited {
+  display: block;
+  padding: 3px;
+  color: #11a; background-color: DDEEFF;
+}
+
+a.table:hover{
+  display: block;
+  padding: 3px;
+  color: white; background-color: #008;
+}
+
+a.table:active {
+  color: white; background-color: gray;
+}
+
+
+
+div.datum {
+  font-size: 10px;
+}
+
+div.ueberschrift {
+  color: #008;
+  font-family: Verdana,sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+div.text {
+  font-size: 12px;
+}
+
+div.mehr {
+  font-size: 12px;
+  text-align: right;
+}
+
+hr{
+  height:1px;
+  margin:3px;
+  border-top:1px solid silver;
+  border-left:0; 
+  border-right:0;
+  border-bottom:0;
+}
